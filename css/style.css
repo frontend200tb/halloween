@@ -217,6 +217,9 @@ h1+p{
     height: 28px;
     background-repeat: no-repeat;
 }
+
+
+/*Footer*/
 .footer-contact{
     display: flex;
     justify-content: space-between;
@@ -241,20 +244,21 @@ h1+p{
 .footer-contact>div:last-child{
     color:#F7654A;
 }
-.box-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.box-footer a{
-    color: #F7654A;
-    text-decoration: none;
-}
-.footer{
+
+.footer {
     background-color: #404149;
-    padding: 30px 0px;
+    padding: 20px 0px;
     font-family: Open Sans, sans-serif;
     color: #FFFFFF;
     font-size: 16px;
+    text-align: center;
 }
 
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copyright {
+    padding: 5px;
+}
